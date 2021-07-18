@@ -50,7 +50,7 @@ git rm .env --cached (Borrar seguimiento)
 ## Subir a Heroku
 
 ```
-heroku git:remote -a restserver001node
+heroku git:clone -a imageniacellphone
 
 # Repetir proceso luego de cambio en el proyecto
 
@@ -77,7 +77,7 @@ heroku logs -n 100 --tail
 ## Producción 
 
 ```
-https://restserver001node.herokuapp.com/
+https://imageniacellphone.herokuapp.com/
 ```
 
 ## Documentación Postman
